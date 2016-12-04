@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MuiltiScreen</string>
+    <string name="add">Agregar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+
+    <string-array name="colors_names">
+        <item>Rojo</item>
+        <item>Azul</item>
+        <item>Amarillo</item>
+        <item>Verde</item>
+        <item>Naranja</item>
+        <item>Violeta</item>
+    </string-array>
+</resources>
