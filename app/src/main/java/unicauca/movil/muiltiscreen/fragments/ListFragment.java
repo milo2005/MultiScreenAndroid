@@ -44,8 +44,8 @@ public class ListFragment extends Fragment implements AdapterView.OnItemClickLis
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-        binding = DataBindingUtil.inflate(inflater, R.layout.fragment_list,container, false);
+        View v = inflater.inflate(R.layout.f_list, container, false);
+        binding = DataBindingUtil.bind(v);
         binding.setVariable(BR.onItemClick, this);
         return binding.getRoot();
     }
